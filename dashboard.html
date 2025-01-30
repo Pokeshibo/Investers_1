@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}!</h1>
+    <p>Balance: ₹{{ user.balance }}</p>
+    <p>Ads viewed today: {{ ads_today }}/2</p>
+    <a href="/view_ads">View Ads</a><br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
